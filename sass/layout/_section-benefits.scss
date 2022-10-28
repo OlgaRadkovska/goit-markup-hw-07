@@ -1,0 +1,31 @@
+.benefits-list__item {
+  flex-basis: 23.08%;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.benefits-list__icon-wrapper {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: var(--our-team-sec-bg);
+}
+
+.benefit-list__name {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.benefit-list__description {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--subtitle-color);
+}

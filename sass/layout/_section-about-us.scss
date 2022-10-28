@@ -1,0 +1,32 @@
+.about-us {
+  padding-top: 0;
+}
+.reg-section-title {
+  margin-bottom: 50px;
+}
+
+.about-us .list {
+  column-gap: 30px;
+}
+
+.specialization {
+  position: relative;
+}
+
+.short-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.label {
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}

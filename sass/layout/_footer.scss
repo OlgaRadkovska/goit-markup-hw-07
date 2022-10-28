@@ -1,0 +1,61 @@
+.footer {
+  background-color: var(--add-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-block {
+  align-items: baseline;
+}
+
+.footer-block__contacts {
+  margin-right: 70px;
+  flex-grow: 1;
+}
+
+.footer-block__logo {
+  margin-right: 0;
+}
+
+.logo__theme-footer {
+  color: var(--bg-page-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.footer-block_address {
+  margin-top: 20px;
+}
+
+.address-list__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address-list__physical-address,
+.address-list__mail-footer,
+.address-list__phone-footer {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--bg-page-color);
+}
+
+.address-list__mail-footer {
+  color: var(--main-footer-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--bg-page-color);
+  }
+}
+
+.address-list__phone-footer {
+  color: var(--main-footer-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--bg-page-color);
+  }
+}
