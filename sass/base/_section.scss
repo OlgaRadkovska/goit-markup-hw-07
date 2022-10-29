@@ -7,6 +7,10 @@
   padding-top: 0;
 }
 
+.section_other-background {
+  background-color: var(--our-team-sec-bg);
+}
+
 .section__title {
   @include font($fs: 36px, $lh: 42px); // font-weight: 700;
   // font-size: 36px;

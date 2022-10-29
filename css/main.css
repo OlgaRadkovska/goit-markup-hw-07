@@ -66,6 +66,10 @@ img {
   padding-top: 0;
 }
 
+.section_other-background {
+  background-color: var(--our-team-sec-bg);
+}
+
 .section__title {
   font-size: 36px;
   font-weight: 700;
@@ -592,10 +596,6 @@ img {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-}
-
-.section_other-background {
-  background-color: var(--our-team-sec-bg);
 }
 
 .our-team-list {
