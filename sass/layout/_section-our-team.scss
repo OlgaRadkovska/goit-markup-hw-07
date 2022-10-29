@@ -1,8 +1,9 @@
-.our-team {
+.section_other-background {
   background-color: var(--our-team-sec-bg);
 }
 
 .our-team-list {
+  display: flex;
   column-gap: 30px;
 }
 .our-team-list__item {
@@ -24,7 +25,7 @@
   letter-spacing: 0.03em;
 }
 
-.our-team-list__subtitle {
+.our-team-list__text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;

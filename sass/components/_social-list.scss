@@ -23,29 +23,29 @@
   &:focus {
     background-color: var(--accent-color);
   }
-
-  &:hover .social-list__icon,
-  &:focus .social-list__icon {
-    fill: #ffffff;
-  }
 }
 
 .social-list__icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .social-list__link:hover &,
+  .social-list__link:focus & {
+    fill: #ffffff;
+  }
 }
 
-.social-lins-action {
+.footer-social-links__text {
   color: #ffffff;
   font-weight: 700;
   line-height: 1.14;
   margin-bottom: 20px;
 }
 
-.social-list__link-footer {
+.social-list__link_footer {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-list__icon-footer {
+.social-list__icon_footer {
   fill: #ffffff;
 }

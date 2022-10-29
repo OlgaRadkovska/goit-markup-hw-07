@@ -20,32 +20,29 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-content container flex-container">
-        <nav class="navigation flex-container">
-          <a class="logo header__logo link" href="#" lang="en"
+      <div class="container header__content">
+        <nav class="navigation">
+          <a class="logo header__logo" href="#" lang="en"
             >Web<span class="logo__theme-header">Studio</span></a
           >
 
-          <ul class="menu list flex-container">
+          <ul class="menu">
             <li class="menu__item">
-              <a class="menu__link link" href="./index.html">Студія</a>
+              <a class="menu__link" href="./index.html">Студія</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link link active" href="#">Портфоліо</a>
+              <a class="menu__link menu__link_active" href="#">Портфоліо</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link link" href="#">Контакти</a>
+              <a class="menu__link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact-list list flex-container">
+        <ul class="contact-list">
           <li class="contact-list__item">
-            <a
-              class="contact-list__mail-header link"
-              href="mailto:info@devstudio.com"
-            >
+            <a class="contact-list__link" href="mailto:info@devstudio.com">
               <svg
-                class="contact-list__mail-icon"
+                class="contact-list__icon"
                 width="16"
                 height="12"
                 aria-label="лист"
@@ -56,9 +53,9 @@
             >
           </li>
           <li class="contact-list__item">
-            <a class="contact-list__phone-header link" href="tel:+380961111111">
+            <a class="contact-list__link" href="tel:+380961111111">
               <svg
-                class="contact-list__phone-icon"
+                class="contact-list__icon"
                 width="10"
                 height="16"
                 aria-label="телефон"
@@ -72,41 +69,31 @@
       </div>
     </header>
     <main>
-      <section class="section portfolio">
+      <section class="section">
         <div class="container">
           <h1 class="visually-hidden">Портфоліо</h1>
-          <ul class="portfolio-action-list list flex-container">
-            <li class="portfolio-action-list__item">
-              <button class="portfolio-action-list__button" type="button">
-                Усі
-              </button>
+          <ul class="filter">
+            <li class="filter__item">
+              <button class="filter__button" type="button">Усі</button>
             </li>
-            <li class="portfolio-action-list__item">
-              <button class="portfolio-action-list__button" type="button">
-                Веб-сайти
-              </button>
+            <li class="filter__item">
+              <button class="filter__button" type="button">Веб-сайти</button>
             </li>
-            <li class="portfolio-action-list__item">
-              <button class="portfolio-action-list__button" type="button">
-                Додатки
-              </button>
+            <li class="filter__item">
+              <button class="filter__button" type="button">Додатки</button>
             </li>
-            <li class="portfolio-action-list__item">
-              <button class="portfolio-action-list__button" type="button">
-                Дизайн
-              </button>
+            <li class="filter__item">
+              <button class="filter__button" type="button">Дизайн</button>
             </li>
-            <li class="portfolio-action-list__item">
-              <button class="portfolio-action-list__button" type="button">
-                Маркетинг
-              </button>
+            <li class="filter__item">
+              <button class="filter__button" type="button">Маркетинг</button>
             </li>
           </ul>
 
-          <ul class="portfolio-list list flex-container">
-            <li class="portfolio-list__item">
-              <a href="#" class="portfolio-list__link link">
-                <div class="portfolio-list__item-wrapper">
+          <ul class="portfolio">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="portfolio__item-wrapper">
                   <img
                     src="./images/portfolio/technocrack.jpg"
                     alt="технокряк"
@@ -119,15 +106,15 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-list__item-description">
-                  <h2 class="portfolio-list__item-title">Технокряк</h2>
-                  <p class="portfolio-list__item-subtitle">Веб-сайт</p>
+                <div class="portfolio__item-description">
+                  <h2 class="portfolio__item-title">Технокряк</h2>
+                  <p class="portfolio__item-subtitle">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list__item">
-              <a href="#" class="portfolio-list__link link">
-                <div class="portfolio-list__item-wrapper">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="portfolio__item-wrapper">
                   <img
                     src="./images/portfolio/poster-bascet-players.jpg"
                     alt="баскетбольний постер"
@@ -140,17 +127,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-list__item-description">
-                  <h2 class="portfolio-list__item-title">
+                <div class="portfolio__item-description">
+                  <h2 class="portfolio__item-title">
                     Постер <span lang="en">New Orlean vs Golden Star</span>
                   </h2>
-                  <p class="portfolio-list__item-subtitle">Дизайн</p>
+                  <p class="portfolio__item-subtitle">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list__item">
-              <a href="#" class="portfolio-list__link link">
-                <div class="portfolio-list__item-wrapper">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="portfolio__item-wrapper">
                   <img
                     src="./images/portfolio/seafood.jpg"
                     alt="ресторан морської кухні"
@@ -163,17 +150,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-list__item-description">
-                  <h2 class="portfolio-list__item-title">
+                <div class="portfolio__item-description">
+                  <h2 class="portfolio__item-title">
                     Ресторан <span lang="en">Seafood</span>
                   </h2>
-                  <p class="portfolio-list__item-subtitle">Додаток</p>
+                  <p class="portfolio__item-subtitle">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list__item">
-              <a href="#" class="portfolio-list__link link">
-                <div class="portfolio-list__item-wrapper">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="portfolio__item-wrapper">
                   <img
                     src="./images/portfolio/headers-project-prime.jpg"
                     alt="	
@@ -187,17 +174,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-list__item-description">
-                  <h2 class="portfolio-list__item-title">
+                <div class="portfolio__item-description">
+                  <h2 class="portfolio__item-title">
                     Проект <span lang="en">Prime</span>
                   </h2>
-                  <p class="portfolio-list__item-subtitle">Маркетинг</p>
+                  <p class="portfolio__item-subtitle">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list__item">
-              <a href="#" class="portfolio-list__link link">
-                <div class="portfolio-list__item-wrapper">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="portfolio__item-wrapper">
                   <img
                     src="./images/portfolio/project-boxes.jpg"
                     alt="проект з коробками"
@@ -210,17 +197,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-list__item-description">
-                  <h2 class="portfolio-list__item-title">
+                <div class="portfolio__item-description">
+                  <h2 class="portfolio__item-title">
                     Проект <span lang="en">Boxes</span>
                   </h2>
-                  <p class="portfolio-list__item-subtitle">Додаток</p>
+                  <p class="portfolio__item-subtitle">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list__item">
-              <a href="#" class="portfolio-list__link link">
-                <div class="portfolio-list__item-wrapper">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="portfolio__item-wrapper">
                   <img
                     src="./images/portfolio/business-typing-laptop.jpg"
                     alt="надихаючий веб-сайт"
@@ -233,17 +220,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="pportfolio-list__item-description">
-                  <h2 class="portfolio-list__item-title" lang="en">
+                <div class="pportfolio__item-description">
+                  <h2 class="portfolio__item-title" lang="en">
                     Inspiration has no Borders
                   </h2>
-                  <p class="portfolio-list__item-subtitle">Веб-сайт</p>
+                  <p class="portfolio__item-subtitle">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list__item">
-              <a href="#" class="portfolio-list__link link">
-                <div class="portfolio-list__item-wrapper">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="portfolio__item-wrapper">
                   <img
                     src="./images/portfolio/book-limited-edition.jpg"
                     alt="дизайн книги"
@@ -256,17 +243,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-item-description">
-                  <h2 class="portfolio-list__item-title">
+                <div class="portfolio__item-description">
+                  <h2 class="portfolio__item-title">
                     Видання <span lang="en">Limited Edition</span>
                   </h2>
-                  <p class="portfolio-list__item-subtitle">Дизайн</p>
+                  <p class="portfolio__item-subtitle">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list__item">
-              <a href="#" class="portfolio-list__link link">
-                <div class="portfolio-list__item-wrapper">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="portfolio__item-wrapper">
                   <img
                     src="./images/portfolio/project-lab.jpg"
                     alt="проект лаба"
@@ -279,17 +266,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-list__item-description">
-                  <h2 class="portfolio-list__item-title">
+                <div class="portfolio__item-description">
+                  <h2 class="portfolio__item-title">
                     Проект <span lang="en">LAB</span>
                   </h2>
-                  <p class="portfolio-list__item-subtitle">Маркетинг</p>
+                  <p class="portfolio__item-subtitle">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list__item">
-              <a href="#" class="portfolio-list__link link">
-                <div class="portfolio-list__item-wrapper">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="portfolio__item-wrapper">
                   <img
                     src="./images/portfolio/book-limited-edition.jpg"
                     alt="додаток для зростаючого бізнесу"
@@ -302,11 +289,11 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-list__item-description">
-                  <h2 class="portfolio-list__item-title" lang="en">
+                <div class="portfolio__item-description">
+                  <h2 class="portfolio__item-title" lang="en">
                     Growing Business
                   </h2>
-                  <p class="portfolio-list__item-subtitle">Додаток</p>
+                  <p class="portfolio__item-subtitle">Додаток</p>
                 </div>
               </a>
             </li>
@@ -316,16 +303,16 @@
     </main>
 
     <footer class="footer">
-      <div class="footer-block container flex-container">
-        <div class="footer-block__contacts">
-          <a class="logo footer-block__logo link" href="#page-header" lang="en"
+      <div class="footer__block container">
+        <div class="footer__contacts">
+          <a class="logo footer__logo" href="#page-header" lang="en"
             >Web<span class="logo__theme-footer">Studio</span></a
           >
-          <address class="address footer-block_address">
-            <ul class="list address-list">
+          <address class="address">
+            <ul class="address-list">
               <li class="address-list__item">
                 <a
-                  class="address-list__physical-address link"
+                  class="address-list__link address-list__link_physical-address"
                   href="https://goo.gl/maps/PeYhesqvmwBexrzR6"
                   target="_blank"
                   rel="noopener norefferer"
@@ -333,16 +320,12 @@
                 >
               </li>
               <li class="address-list__item">
-                <a
-                  class="address-list__mail-footer link"
-                  href="mailto:info@example.com"
+                <a class="address-list__link" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
               <li class="address-list__item">
-                <a
-                  class="address-list__phone-footer link"
-                  href="tel:+380991111111"
+                <a class="address-list__link" href="tel:+380991111111"
                   >+38 099 111 11 11</a
                 >
               </li>
@@ -351,12 +334,12 @@
         </div>
 
         <div class="footer-social-links">
-          <p class="social-lins-action">ПРИЄДНУЙТЕСЬ</p>
-          <ul class="social-list list">
+          <p class="footer-social-links__text">ПРИЄДНУЙТЕСЬ</p>
+          <ul class="social-list">
             <li class="social-list__item">
-              <a href="#" class="social-list__link social-list__link-footer">
+              <a href="#" class="social-list__link social-list__link_footer">
                 <svg
-                  class="social-list__icon-footer"
+                  class="social-list__icon_footer"
                   width="20"
                   height="20"
                   area-lable="instagram"
@@ -367,9 +350,9 @@
               </a>
             </li>
             <li class="social-list__item">
-              <a href="#" class="social-list__link social-list__link-footer">
+              <a href="#" class="social-list__link social-list__link_footer">
                 <svg
-                  class="social-list__icon-footer"
+                  class="social-list__icon_footer"
                   width="20"
                   height="20"
                   area-lable="twitter"
@@ -380,9 +363,9 @@
               </a>
             </li>
             <li class="social-list__item">
-              <a href="#" class="social-list__link social-list__link-footer">
+              <a href="#" class="social-list__link social-list__link_footer">
                 <svg
-                  class="social-list__icon-footer"
+                  class="social-list__icon_footer"
                   width="20"
                   height="20"
                   area-lable="facebook"
@@ -393,9 +376,9 @@
               </a>
             </li>
             <li class="social-list__item">
-              <a href="#" class="social-list__link social-list__link-footer">
+              <a href="#" class="social-list__link social-list__link_footer">
                 <svg
-                  class="social-list__icon-footer"
+                  class="social-list__icon_footer"
                   width="20"
                   height="20"
                   area-lable="linkedin"

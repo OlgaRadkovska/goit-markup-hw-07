@@ -1,4 +1,8 @@
-.benefits-list__item {
+.benefits {
+  display: flex;
+}
+
+.benefits__item {
   flex-basis: 23.08%;
   margin-right: 30px;
 
@@ -7,7 +11,7 @@
   }
 }
 
-.benefits-list__icon-wrapper {
+.benefits__icon-wrapper {
   display: flex;
   height: 120px;
   justify-content: center;
@@ -16,7 +20,7 @@
   background-color: var(--our-team-sec-bg);
 }
 
-.benefit-list__name {
+.benefits__title {
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: 700;
@@ -24,7 +28,7 @@
   letter-spacing: 0.03em;
 }
 
-.benefit-list__description {
+.benefits__description {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--subtitle-color);

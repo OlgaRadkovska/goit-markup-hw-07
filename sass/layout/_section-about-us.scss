@@ -1,19 +1,18 @@
-.about-us {
-  padding-top: 0;
-}
-.reg-section-title {
+
+.section__title {
   margin-bottom: 50px;
 }
 
-.about-us .list {
+.specialization {
+  display: flex;
   column-gap: 30px;
 }
 
-.specialization {
+.specialization__item {
   position: relative;
 }
 
-.short-overlay {
+.specialization__label {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,9 +21,7 @@
   width: 100%;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
-}
 
-.label {
   color: #fff;
   font-weight: 700;
   line-height: 1.14;

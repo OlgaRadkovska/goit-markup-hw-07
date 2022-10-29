@@ -2,3 +2,15 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.section_no-padding-top {
+  padding-top: 0;
+}
+
+.section__title {
+  @include font($fs: 36px, $lh: 42px); // font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
